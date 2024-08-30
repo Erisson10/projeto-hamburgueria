@@ -1,7 +1,6 @@
 const list = document.querySelector('ul')
 const buttonShowAll = document.querySelector('.show-all')
-const buttonMapAll
-
+const buttonMapAll = document.querySelector('.map-all')
 let myLi = ''
 
 function showAll() {
@@ -18,6 +17,9 @@ function showAll() {
   list.innerHTML = myLi
 }
 
-
+function mapAllrems(){
+  console.log('Cameiii')
+}
 
 buttonShowAll.addEventListener('click', showAll)
+buttonMapAll.addEventListener('click',)
